@@ -98,7 +98,12 @@ ul.post_list li a{
 	color: #4183c4;
 	text-decoration: none;
 }
-
+ul.post_list li span{
+	color: #e5e5e5;
+	font-size: 12px;
+	font-style: italic;
+	font-family: cursive;
+}
 
 h2 {
 	float: left;
@@ -176,5 +181,6 @@ th{
 	margin: 0 auto;
 	width: 665px;
 	color: #e5e5e5;
+	font-size: 14px;
 	font-family: 'Parisienne', cursive;
 }
