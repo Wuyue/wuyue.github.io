@@ -5,6 +5,7 @@ body {
 	font-family: "Lucida Grande", "Bitstream Vera Sans", "Verdana", "微软雅黑";
 	font-size: 13px;
 	color: #333;
+	/*-webkit-font-smoothing:antialiased;*/
 }
 
 div,h2,h5,h6,span,ul,li,a,p,table,tr,td,th{
@@ -13,7 +14,7 @@ div,h2,h5,h6,span,ul,li,a,p,table,tr,td,th{
 }
 
 #header {
-	height: 50px;
+	height: 47px;
 	background-color: #fafafa;
 	background: -moz-linear-gradient(#fafafa, #eaeaea);
 	background: -webkit-linear-gradient(#fafafa, #eaeaea);
@@ -29,9 +30,10 @@ div,h2,h5,h6,span,ul,li,a,p,table,tr,td,th{
 #header h1{
 	width: 665px;
 	margin: 15px auto;
-	font: 20px '微软雅黑',Arial;
-	font-weight: bold;
+	font-size: 20px;
+	/*font-weight: bolder;*/
 	line-height: 20px;
+	font-family: 'Marcellus SC', serif;
 }
 
 #header h1 a{
@@ -45,7 +47,7 @@ div,h2,h5,h6,span,ul,li,a,p,table,tr,td,th{
 	background-color: white;
 	width: 665px;
 	margin: 0 auto;
-	min-height: 500px;
+	min-height: 600px;
 }
 
 div.ul-header {
