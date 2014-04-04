@@ -2,7 +2,7 @@
 layout: post
 title:  Ohm使用多个redis库
 date:   2014-03-20
-categories: jekyll update
+<!-- categories: jekyll update -->
 ---
 
 Redis提供两种持久化数据备份方式，rdb和aof。这两种方式在save或重写的时候都会开起一个新的进程。也就是说如果redis数据有10G的话，那么在做备份的时候，机器的内存至少得要20G才能做到。相当于服务器的内存一直要保证在数据的两倍以上才行，要不然备份的时候线上服务立马卡死，造成了极大的浪费。
