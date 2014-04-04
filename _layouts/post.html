@@ -1,15 +1,16 @@
-{% include header.html %}
-	
-	<div id="main">
-		{% include post_header.html %}
+---
+layout: default
+---
 
- 		{{ content }}
-	</div>
+<div id="post-list">
+	<h6><a href="/">文章列表</a>/{{ page.title }}</h6>
+</div>
+<div class="post-time">
+	{{ page.date | date: "%Y-%m-%d" }}
+</div>
 
-{% include footer.html %}
-</body>
+<h2>{{ page.title }}</h2>
 
-{% include google_analytics.html %}
-
-</html>
-
+<div class="post">
+{{ content }}
+</div>
