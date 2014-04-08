@@ -1,0 +1,71 @@
+#paper a         { color: #333; text-decoration: underline;}
+#paper a:hover   { color: #333; text-decoration: underline;}
+#paper a:visited { color: #333; text-decoration: underline;}
+
+#paper-title{
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+#paper-title h2{
+	float: left;
+	font-size: 18px;
+	line-height: 25px;
+}
+#paper-title span{
+	float: left;
+	padding: 5px 0 0 10px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #999;
+}
+#paper-title p{
+	float: left;
+	width: 100%;
+}
+
+
+#paper{
+	margin-top: 10px;
+	width: 100%;
+	float: left;
+}
+
+#paper h3{
+	float: left;
+	width: 100%;
+	font-size: 16px;
+}
+#paper ul{
+	float: left;
+	margin: 10px 0;
+	width: 100%;
+	/*border-left: 2px solid #ddd; */
+}
+
+#paper ul li{
+	list-style-type: none;
+	/*margin-left: 10px;*/
+	padding: 3px 0;
+	width: 655px;
+	font-size: 13px;
+	line-height: 16px;
+}
+
+#info{
+	float: left;
+	margin-top: 15px;
+	padding-top: 10px;
+	width: 100%;
+  border-top: 1px solid #ddd;
+}
+
+#info p{
+	font-size: 13px;
+	line-height: 18px;
+	padding: 0;
+	margin: 3px 0;
+}
