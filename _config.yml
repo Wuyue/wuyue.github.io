@@ -1,4 +1,5 @@
 name: Wu Yue
-markdown: redcarpet
+# markdown: redcarpet
 pygments: true
 encoding: utf-8
+highlighter: null
